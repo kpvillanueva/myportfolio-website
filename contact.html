@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Kim Princes R. Villanueva</title>
+    <meta
+      name="description"
+      content="Contact details and simple contact form for Kim Princes R. Villanueva."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="site-nav" aria-label="Primary">
+        <div class="site-nav__inner">
+          <a class="site-nav__brand" href="index.html">Kim Princes</a>
+          <ul class="site-nav__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Achievements</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="contact contact--page">
+        <div class="contact__inner">
+          <h2>Contact Details</h2>
+          <div class="section-rule section-rule--on-dark" aria-hidden="true"></div>
+
+          <a class="contact__email" href="mailto:2420661@ub.edu.ph">
+            2420661@ub.edu.ph
+          </a>
+          <p class="contact__detail">Phone: 09913369943 / 09776889893</p>
+
+          <form class="contact-form" action="#" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Kim Princes R. Villanueva. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
