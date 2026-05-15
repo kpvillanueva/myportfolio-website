@@ -4,147 +4,524 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About | Kim Princes R. Villanueva</title>
-    <meta
-      name="description"
-      content="Personal background, education, and skills of Kim Princes R. Villanueva."
+    <meta name="description" content="Personal dossier — Kim Princes R. Villanueva." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Source+Sans+3:wght@300;400;500;600;700&family=Special+Elite&family=Caveat:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="casefile.css" />
   </head>
   <body>
-    <header>
-      <nav class="site-nav" aria-label="Primary">
-        <div class="site-nav__inner">
-          <a class="site-nav__brand" href="index.html">Kim Princes</a>
-          <ul class="site-nav__links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Achievements</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+    <script>
+      document.documentElement.classList.add("casefile-boot");
+    </script>
+    <div id="root">
+      <div class="stage entered">
+        <div class="folder-wrap">
+          <div class="folder">
+            <div class="bg-sheets" aria-hidden="true">
+              <div class="bg-sheet"></div>
+              <div class="bg-sheet"></div>
+              <div class="bg-sheet"></div>
+            </div>
+            <div class="folder-back" aria-hidden="true"></div>
 
-    <main>
-      <section class="about">
-        <div class="about__inner">
-          <h2>Personal Background</h2>
-          <div class="section-rule" aria-hidden="true"></div>
-          <div class="about__rows">
-            <div class="about__row">
-              <img
-                class="about__photo"
-                src="imgs/2.jpg"
-                alt="Kim Princes R. Villanueva early life and background"
-                width="250"
-                height="280"
-              />
-              <div class="about__text">
-                <h3>Early Life and Background</h3>
-                <p>
-                  I am Kim Princes R. Villanueva, 21 years old, and I grew up in
-                  Purok 5, Brgy. Tibig, Lipa City, Batangas. Raised in a simple
-                  but supportive family, education has always been a priority in
-                  our home. From childhood, I developed a passion for art and
-                  creativity, which led me to actively participate in
-                  departmental activities throughout my academic life.
-                </p>
+            <nav class="tabs" aria-label="Primary">
+              <a class="tab" href="index.html"><span class="tab-no">FILE 01</span><span class="tab-label">HOME</span></a>
+              <a class="tab tab-active" href="about.html"><span class="tab-no">FILE 02</span><span class="tab-label">ABOUT ME</span></a>
+              <a class="tab" href="projects.html"><span class="tab-no">FILE 03</span><span class="tab-label">ACHIEVEMENTS</span></a>
+              <a class="tab" href="contact.html"><span class="tab-no">FILE 04</span><span class="tab-label">CONTACT</span></a>
+            </nav>
+
+            <div class="papers">
+              <div class="paper">
+                <div class="hole-punch" aria-hidden="true">
+                  <div class="hole"></div>
+                  <div class="hole"></div>
+                  <div class="hole"></div>
+                  <div class="hole"></div>
+                  <div class="hole"></div>
+                  <div class="hole"></div>
+                </div>
+                <div class="paper-content">
+                  <div class="classification">
+                    <span
+                      ><span class="dot" style="display: inline-block; margin-right: 10px; vertical-align: middle"></span
+                      >PERSONAL DOSSIER · SECTION 02</span
+                    >
+                    <span>CASE NO. KPRV-2026 · CLEARANCE: LV-5</span>
+                  </div>
+
+                  <div class="subtabs" role="tablist">
+                    <button type="button" class="subtab subtab-active" data-subtab="profile">
+                      Profile
+                    </button>
+                    <button type="button" class="subtab" data-subtab="education">Education</button>
+                    <button type="button" class="subtab" data-subtab="skills">Skills</button>
+                    <button type="button" class="subtab" data-subtab="interests">Interests</button>
+                  </div>
+
+                  <div class="subpanels">
+                    <div class="page-enter is-active" data-subpanel="profile">
+                      <div class="about-grid">
+                        <div>
+                          <div style="font-family: Caveat, cursive; font-size: clamp(1.8rem, 4vw, 38px); font-weight: 700; color: var(--navy-ink); margin-bottom: 4px; transform: rotate(-1deg); line-height: 1">
+                            Kim Princes R. Villanueva
+                          </div>
+                          <div style="height: 2px; background: var(--ink-faded); width: min(220px, 100%); margin-bottom: 18px"></div>
+                          <div style="display: grid; gap: 0; max-width: 400px; margin-bottom: 22px">
+                            <div class="field">
+                              <span class="k">Age</span>
+                              <span class="v">21 · Lipa City, Batangas</span>
+                            </div>
+                            <div class="field">
+                              <span class="k">Origin</span>
+                              <span class="v">Purok 5, Brgy. Tibig</span>
+                            </div>
+                            <div class="field">
+                              <span class="k">Programme</span>
+                              <span class="v">BS Criminology · UB Lipa</span>
+                            </div>
+                            <div class="field">
+                              <span class="k">Status</span>
+                              <span class="v">Student · Asst. Teacher (2022–23)</span>
+                            </div>
+                          </div>
+                          <div class="doc-card tilt-l-sm" style="position: relative">
+                            <h3 class="h-section" style="font-size: 14px; margin-bottom: 10px; letter-spacing: 0.2em; padding-left: 40px">IN A FEW WORDS</h3>
+                            <p class="typewriter" style="font-size: 12.5px; line-height: 1.65; text-align: justify">
+                              I am Kim Princes R. Villanueva, 21 years old, from Brgy. Tibig, Lipa City, Batangas. Raised in a simple, supportive family where education always came first. I grew up with a passion for art and creativity, joined departmental activities, and served as an Assistant Teacher from 2022 to 2023 — teaching Filipino Sa Piling Larangan to Grade 11, preparing quizzes, and learning discipline and care in the classroom. That path led me to Criminology: I want to serve the community with integrity and empathy.
+                            </p>
+                            <div class="paperclip" style="top: -30px; left: 6px; transform: rotate(-8deg)">
+                              <svg viewBox="0 0 36 80" fill="none" aria-hidden="true">
+                                <path
+                                  d="M24 8 C28 8 30 10 30 14 L30 60 C30 68 24 72 18 72 C12 72 6 68 6 60 L6 18 C6 14 8 12 12 12 C16 12 18 14 18 18 L18 56 C18 60 20 62 22 62 C24 62 26 60 26 56 L26 14"
+                                  stroke="#b8902f"
+                                  stroke-width="3"
+                                  stroke-linecap="round"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                          <div style="margin-top: 18px; max-width: 420px">
+                            <span class="label" style="font-size: 9px; display: block; margin-bottom: 8px; letter-spacing: 0.18em"
+                              >EXHIBIT A-2 · MOTION ATTACHMENT</span>
+                            <video
+                              src="imgs/video-2.mp4"
+                              controls
+                              playsinline
+                              style="
+                                width: 100%;
+                                max-height: 280px;
+                                border-radius: 4px;
+                                border: 2px solid rgba(20, 39, 74, 0.22);
+                                background: #0d1524;
+                                box-shadow: 0 8px 22px rgba(20, 39, 74, 0.14);
+                              "
+                            ></video>
+                          </div>
+                        </div>
+                        <div>
+                          <div style="margin-bottom: 20px">
+                            <span class="label" style="font-size: 9px; display: block; margin-bottom: 8px; letter-spacing: 0.18em"
+                              >EXHIBIT A-1 · MOTION ATTACHMENT</span>
+                            <video
+                              src="imgs/video-1.mp4"
+                              controls
+                              playsinline
+                              style="
+                                width: 100%;
+                                max-width: 360px;
+                                margin-left: auto;
+                                display: block;
+                                max-height: 320px;
+                                border-radius: 4px;
+                                border: 2px solid rgba(20, 39, 74, 0.22);
+                                background: #0d1524;
+                                box-shadow: 0 8px 22px rgba(20, 39, 74, 0.14);
+                              "
+                            ></video>
+                          </div>
+                          <div class="doc-card tilt-r-sm" style="position: relative; margin-top: 8px">
+                            <h3 class="h-section" style="font-size: 14px; margin-bottom: 10px; letter-spacing: 0.2em">KNOWN ASSOCIATIONS</h3>
+                            <ul class="checklist" style="font-size: 13px">
+                              <li>Assistant Teacher · Lipa City Senior High School (2022–2023)</li>
+                              <li>Departmental Poster Making Contest — Winner</li>
+                              <li>Filipino Sa Piling Larangan — Instructor Aide</li>
+                              <li>BS Criminology · University of Batangas Lipa Campus</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="washi-tape" style="top: -12px; left: 36%; transform: rotate(-3deg)"></div>
+                    </div>
+
+                    <div data-subpanel="education">
+                      <div style="display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; flex-wrap: wrap">
+                        <h2 class="h-display" style="font-size: 28px">Academic Record</h2>
+                        <span class="label" style="font-size: 10px">EXHIBIT B · CHRONOLOGICAL</span>
+                      </div>
+                      <div class="edu-ub-with-exhibits">
+                        <div class="ach-row">
+                          <div class="year">2024 – Present</div>
+                          <div>
+                            <div class="title">University of Batangas Lipa Campus</div>
+                            <div class="org">BS Criminology. Previously: Kolehiyo ng Lungsod ng Lipa (2023–2024).</div>
+                          </div>
+                          <span class="tag tag-red">CURRENT</span>
+                        </div>
+                        <div class="edu-polaroid-row" role="group" aria-label="Photos — University of Batangas Lipa Campus">
+                          <div
+                            class="polaroid edu-pz"
+                            role="button"
+                            tabindex="0"
+                            data-edu-bg="imgs/7.png"
+                            style="--edu-z: 2; --edu-r: -8deg; --edu-y: 3px"
+                            aria-label="UB Lipa exhibit 1 — click to enlarge"
+                          >
+                            <div class="paperclip" style="top: -22px; left: 6px; transform: rotate(-14deg)" aria-hidden="true">
+                              <svg viewBox="0 0 36 80" fill="none">
+                                <path
+                                  d="M24 8 C28 8 30 10 30 14 L30 60 C30 68 24 72 18 72 C12 72 6 68 6 60 L6 18 C6 14 8 12 12 12 C16 12 18 14 18 18 L18 56 C18 60 20 62 22 62 C24 62 26 60 26 56 L26 14"
+                                  stroke="#b8902f"
+                                  stroke-width="3"
+                                  stroke-linecap="round"
+                                />
+                              </svg>
+                            </div>
+                            <div class="polaroid-photo-bg" aria-hidden="true" style="background-image: url('imgs/7.png')"></div>
+                            <div class="caption">ub lipa · 01</div>
+                          </div>
+                          <div
+                            class="polaroid edu-pz"
+                            role="button"
+                            tabindex="0"
+                            data-edu-bg="imgs/8.png"
+                            style="--edu-z: 4; --edu-r: 6deg; --edu-y: 0px"
+                            aria-label="UB Lipa exhibit 2 — click to enlarge"
+                          >
+                            <div class="paperclip" style="top: -20px; right: 8px; left: auto; transform: rotate(10deg)" aria-hidden="true">
+                              <svg viewBox="0 0 36 80" fill="none">
+                                <path
+                                  d="M24 8 C28 8 30 10 30 14 L30 60 C30 68 24 72 18 72 C12 72 6 68 6 60 L6 18 C6 14 8 12 12 12 C16 12 18 14 18 18 L18 56 C18 60 20 62 22 62 C24 62 26 60 26 56 L26 14"
+                                  stroke="#2a5599"
+                                  stroke-width="3"
+                                  stroke-linecap="round"
+                                />
+                              </svg>
+                            </div>
+                            <div class="polaroid-photo-bg" aria-hidden="true" style="background-image: url('imgs/8.png')"></div>
+                            <div class="caption">ub lipa · 02</div>
+                          </div>
+                          <div
+                            class="polaroid edu-pz"
+                            role="button"
+                            tabindex="0"
+                            data-edu-bg="imgs/9.png"
+                            style="--edu-z: 6; --edu-r: -7deg; --edu-y: -4px"
+                            aria-label="UB Lipa exhibit 3 — click to enlarge"
+                          >
+                            <div class="paperclip" style="top: -24px; left: 14px; transform: rotate(-8deg)" aria-hidden="true">
+                              <svg viewBox="0 0 36 80" fill="none">
+                                <path
+                                  d="M24 8 C28 8 30 10 30 14 L30 60 C30 68 24 72 18 72 C12 72 6 68 6 60 L6 18 C6 14 8 12 12 12 C16 12 18 14 18 18 L18 56 C18 60 20 62 22 62 C24 62 26 60 26 56 L26 14"
+                                  stroke="#b8902f"
+                                  stroke-width="3"
+                                  stroke-linecap="round"
+                                />
+                              </svg>
+                            </div>
+                            <div class="polaroid-photo-bg" aria-hidden="true" style="background-image: url('imgs/9.png')"></div>
+                            <div class="caption">ub lipa · 03</div>
+                          </div>
+                          <div
+                            class="polaroid edu-pz"
+                            role="button"
+                            tabindex="0"
+                            data-edu-bg="imgs/13.png"
+                            style="--edu-z: 7; --edu-r: 9deg; --edu-y: 5px"
+                            aria-label="UB Lipa exhibit 4 — click to enlarge"
+                          >
+                            <div class="paperclip" style="top: -18px; right: 12px; left: auto; transform: rotate(14deg)" aria-hidden="true">
+                              <svg viewBox="0 0 36 80" fill="none">
+                                <path
+                                  d="M24 8 C28 8 30 10 30 14 L30 60 C30 68 24 72 18 72 C12 72 6 68 6 60 L6 18 C6 14 8 12 12 12 C16 12 18 14 18 18 L18 56 C18 60 20 62 22 62 C24 62 26 60 26 56 L26 14"
+                                  stroke="#2a5599"
+                                  stroke-width="3"
+                                  stroke-linecap="round"
+                                />
+                              </svg>
+                            </div>
+                            <div class="polaroid-photo-bg" aria-hidden="true" style="background-image: url('imgs/13.png')"></div>
+                            <div class="caption">ub lipa · 04</div>
+                          </div>
+                          <div
+                            class="polaroid edu-pz"
+                            role="button"
+                            tabindex="0"
+                            data-edu-bg="imgs/14.png"
+                            style="--edu-z: 5; --edu-r: -5deg; --edu-y: 2px"
+                            aria-label="UB Lipa exhibit 5 — click to enlarge"
+                          >
+                            <div class="paperclip" style="top: -22px; left: 4px; transform: rotate(-10deg)" aria-hidden="true">
+                              <svg viewBox="0 0 36 80" fill="none">
+                                <path
+                                  d="M24 8 C28 8 30 10 30 14 L30 60 C30 68 24 72 18 72 C12 72 6 68 6 60 L6 18 C6 14 8 12 12 12 C16 12 18 14 18 18 L18 56 C18 60 20 62 22 62 C24 62 26 60 26 56 L26 14"
+                                  stroke="#b8902f"
+                                  stroke-width="3"
+                                  stroke-linecap="round"
+                                />
+                              </svg>
+                            </div>
+                            <div class="polaroid-photo-bg" aria-hidden="true" style="background-image: url('imgs/14.png')"></div>
+                            <div class="caption">ub lipa · 05</div>
+                          </div>
+                          <div
+                            class="polaroid edu-pz"
+                            role="button"
+                            tabindex="0"
+                            data-edu-bg="imgs/15.png"
+                            style="--edu-z: 3; --edu-r: 5deg; --edu-y: -2px"
+                            aria-label="UB Lipa exhibit 6 — click to enlarge"
+                          >
+                            <div class="paperclip" style="top: -20px; right: 6px; left: auto; transform: rotate(12deg)" aria-hidden="true">
+                              <svg viewBox="0 0 36 80" fill="none">
+                                <path
+                                  d="M24 8 C28 8 30 10 30 14 L30 60 C30 68 24 72 18 72 C12 72 6 68 6 60 L6 18 C6 14 8 12 12 12 C16 12 18 14 18 18 L18 56 C18 60 20 62 22 62 C24 62 26 60 26 56 L26 14"
+                                  stroke="#2a5599"
+                                  stroke-width="3"
+                                  stroke-linecap="round"
+                                />
+                              </svg>
+                            </div>
+                            <div class="polaroid-photo-bg" aria-hidden="true" style="background-image: url('imgs/15.png')"></div>
+                            <div class="caption">ub lipa · 06</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="edu-shs-with-exhibits">
+                        <div class="ach-row">
+                          <div class="year">2021 – 2023</div>
+                          <div>
+                            <div class="title">Lipa City Senior High School</div>
+                            <div class="org">Senior High School + Assistant Teacher role.</div>
+                          </div>
+                          <span class="tag tag-gold">GRADUATED</span>
+                        </div>
+                        <div class="edu-polaroid-row edu-polaroid-row--shs" role="group" aria-label="Photos — Lipa City Senior High School">
+                          <div
+                            class="polaroid edu-pz"
+                            role="button"
+                            tabindex="0"
+                            data-edu-bg="imgs/shs/0.png"
+                            style="--edu-z: 2; --edu-r: -7deg; --edu-y: 2px"
+                            aria-label="Lipa City SHS exhibit 1 — click to enlarge"
+                          >
+                            <div class="paperclip" style="top: -22px; left: 6px; transform: rotate(-12deg)" aria-hidden="true">
+                              <svg viewBox="0 0 36 80" fill="none">
+                                <path
+                                  d="M24 8 C28 8 30 10 30 14 L30 60 C30 68 24 72 18 72 C12 72 6 68 6 60 L6 18 C6 14 8 12 12 12 C16 12 18 14 18 18 L18 56 C18 60 20 62 22 62 C24 62 26 60 26 56 L26 14"
+                                  stroke="#b8902f"
+                                  stroke-width="3"
+                                  stroke-linecap="round"
+                                />
+                              </svg>
+                            </div>
+                            <div class="polaroid-photo-bg" aria-hidden="true" style="background-image: url('imgs/shs/0.png')"></div>
+                            <div class="caption">lipa shs · 01</div>
+                          </div>
+                          <div
+                            class="polaroid edu-pz"
+                            role="button"
+                            tabindex="0"
+                            data-edu-bg="imgs/shs/1.jpg"
+                            style="--edu-z: 4; --edu-r: 6deg; --edu-y: 0px"
+                            aria-label="Lipa City SHS exhibit 2 — click to enlarge"
+                          >
+                            <div class="paperclip" style="top: -20px; right: 8px; left: auto; transform: rotate(10deg)" aria-hidden="true">
+                              <svg viewBox="0 0 36 80" fill="none">
+                                <path
+                                  d="M24 8 C28 8 30 10 30 14 L30 60 C30 68 24 72 18 72 C12 72 6 68 6 60 L6 18 C6 14 8 12 12 12 C16 12 18 14 18 18 L18 56 C18 60 20 62 22 62 C24 62 26 60 26 56 L26 14"
+                                  stroke="#2a5599"
+                                  stroke-width="3"
+                                  stroke-linecap="round"
+                                />
+                              </svg>
+                            </div>
+                            <div class="polaroid-photo-bg" aria-hidden="true" style="background-image: url('imgs/shs/1.jpg')"></div>
+                            <div class="caption">lipa shs · 02</div>
+                          </div>
+                          <div
+                            class="polaroid edu-pz"
+                            role="button"
+                            tabindex="0"
+                            data-edu-bg="imgs/shs/2.jpg"
+                            style="--edu-z: 6; --edu-r: -6deg; --edu-y: -3px"
+                            aria-label="Lipa City SHS exhibit 3 — click to enlarge"
+                          >
+                            <div class="paperclip" style="top: -24px; left: 12px; transform: rotate(-8deg)" aria-hidden="true">
+                              <svg viewBox="0 0 36 80" fill="none">
+                                <path
+                                  d="M24 8 C28 8 30 10 30 14 L30 60 C30 68 24 72 18 72 C12 72 6 68 6 60 L6 18 C6 14 8 12 12 12 C16 12 18 14 18 18 L18 56 C18 60 20 62 22 62 C24 62 26 60 26 56 L26 14"
+                                  stroke="#b8902f"
+                                  stroke-width="3"
+                                  stroke-linecap="round"
+                                />
+                              </svg>
+                            </div>
+                            <div class="polaroid-photo-bg" aria-hidden="true" style="background-image: url('imgs/shs/2.jpg')"></div>
+                            <div class="caption">lipa shs · 03</div>
+                          </div>
+                          <div
+                            class="polaroid edu-pz"
+                            role="button"
+                            tabindex="0"
+                            data-edu-bg="imgs/shs/3.jpg"
+                            style="--edu-z: 5; --edu-r: 8deg; --edu-y: 4px"
+                            aria-label="Lipa City SHS exhibit 4 — click to enlarge"
+                          >
+                            <div class="paperclip" style="top: -18px; right: 10px; left: auto; transform: rotate(12deg)" aria-hidden="true">
+                              <svg viewBox="0 0 36 80" fill="none">
+                                <path
+                                  d="M24 8 C28 8 30 10 30 14 L30 60 C30 68 24 72 18 72 C12 72 6 68 6 60 L6 18 C6 14 8 12 12 12 C16 12 18 14 18 18 L18 56 C18 60 20 62 22 62 C24 62 26 60 26 56 L26 14"
+                                  stroke="#2a5599"
+                                  stroke-width="3"
+                                  stroke-linecap="round"
+                                />
+                              </svg>
+                            </div>
+                            <div class="polaroid-photo-bg" aria-hidden="true" style="background-image: url('imgs/shs/3.jpg')"></div>
+                            <div class="caption">lipa shs · 04</div>
+                          </div>
+                          <div
+                            class="polaroid edu-pz"
+                            role="button"
+                            tabindex="0"
+                            data-edu-bg="imgs/shs/4.jpg"
+                            style="--edu-z: 3; --edu-r: -4deg; --edu-y: -1px"
+                            aria-label="Lipa City SHS exhibit 5 — click to enlarge"
+                          >
+                            <div class="paperclip" style="top: -20px; left: 4px; transform: rotate(-10deg)" aria-hidden="true">
+                              <svg viewBox="0 0 36 80" fill="none">
+                                <path
+                                  d="M24 8 C28 8 30 10 30 14 L30 60 C30 68 24 72 18 72 C12 72 6 68 6 60 L6 18 C6 14 8 12 12 12 C16 12 18 14 18 18 L18 56 C18 60 20 62 22 62 C24 62 26 60 26 56 L26 14"
+                                  stroke="#b8902f"
+                                  stroke-width="3"
+                                  stroke-linecap="round"
+                                />
+                              </svg>
+                            </div>
+                            <div class="polaroid-photo-bg" aria-hidden="true" style="background-image: url('imgs/shs/4.jpg')"></div>
+                            <div class="caption">lipa shs · 05</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="ach-row">
+                        <div class="year">2017 – 2021</div>
+                        <div>
+                          <div class="title">Lipa City National High School</div>
+                          <div class="org">Junior High School.</div>
+                        </div>
+                        <span class="tag tag-gold">GRADUATED</span>
+                      </div>
+                      <div class="ach-row">
+                        <div class="year">2010 – 2017</div>
+                        <div>
+                          <div class="title">Tibig Elementary School</div>
+                          <div class="org">Elementary — Lipa City, Batangas.</div>
+                        </div>
+                        <span class="tag tag-navy">GRADUATED</span>
+                      </div>
+                    </div>
+
+                    <div data-subpanel="skills">
+                      <h2 class="h-display" style="font-size: 28px; margin-bottom: 14px">Skill Audit</h2>
+                      <div style="display: grid; grid-template-columns: 1fr; gap: 18px">
+                        <div class="doc-card">
+                          <div class="label" style="margin-bottom: 8px">CORE (SOFT)</div>
+                          <ul class="checklist" style="font-size: 13px">
+                            <li>Excellent communication</li>
+                            <li>Creative thinking</li>
+                            <li>Organizational skills</li>
+                            <li>Patience and empathy</li>
+                            <li>Interpersonal skills</li>
+                            <li>Critical thinking</li>
+                            <li>Adaptability</li>
+                            <li>Leadership</li>
+                          </ul>
+                        </div>
+                        <div class="doc-card">
+                          <div class="label" style="margin-bottom: 8px">ACADEMIC (HARD)</div>
+                          <ul class="checklist" style="font-size: 13px">
+                            <li>Criminal investigation</li>
+                            <li>Forensic analysis</li>
+                            <li>Legal research</li>
+                            <li>Crime scene processing</li>
+                            <li>Report writing</li>
+                            <li>Case documentation</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="cf-exhibit-grid cf-exhibit-grid--skills" aria-label="Skills-related photos">
+                        <img src="imgs/4.png" alt="Skills and training — exhibit" loading="lazy" decoding="async" />
+                        <img src="imgs/5.png" alt="Skills and training — exhibit" loading="lazy" decoding="async" />
+                        <img src="imgs/6.png" alt="Skills and training — exhibit" loading="lazy" decoding="async" />
+                      </div>
+                    </div>
+
+                    <div data-subpanel="interests">
+                      <h2 class="h-display" style="font-size: 28px; margin-bottom: 12px">Off the Record</h2>
+                      <p class="typewriter" style="font-size: 12.5px; line-height: 1.7; margin-bottom: 18px">
+                        Outside coursework: art and poster work, reading, helping at home, and anything that keeps me grounded while I train for law enforcement.
+                      </p>
+                      <div class="doc-card">
+                        <h3 class="h-section" style="font-size: 14px; margin-bottom: 10px; letter-spacing: 0.2em">THINGS I CARE ABOUT</h3>
+                        <ul class="checklist" style="font-size: 13px">
+                          <li>Community safety in Lipa City</li>
+                          <li>Fair process and integrity in policing</li>
+                          <li>Youth mentorship</li>
+                          <li>Clear communication in the classroom and in the field</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="index-strip">
+                    <span>◀ HOME</span>
+                    <span>SECTION 02 · ABOUT</span>
+                    <span>NEXT ▸ ACHIEVEMENTS</span>
+                  </div>
+                </div>
               </div>
             </div>
-
-            <div class="about__row about__row--reverse">
-              <img
-                class="about__photo"
-                src="imgs/3.jpg"
-                alt="Kim Princes R. Villanueva path to criminology"
-                width="250"
-                height="280"
+            <div class="folder-front-trim" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="eduPhotoLightbox" class="edu-photo-lightbox" hidden role="dialog" aria-modal="true" aria-label="Enlarged polaroid">
+      <button type="button" class="edu-photo-lightbox__backdrop" data-edu-lb-close tabindex="-1" aria-label="Close photo"></button>
+      <div class="edu-photo-lightbox__frame">
+        <button type="button" class="edu-photo-lightbox__close" data-edu-lb-close aria-label="Close">×</button>
+        <div class="polaroid edu-photo-lightbox__pz" style="width: min(420px, 92vw); transform: none; margin: 0">
+          <div class="paperclip" style="top: -22px; left: 50%; margin-left: -18px; transform: rotate(-8deg)" aria-hidden="true">
+            <svg viewBox="0 0 36 80" fill="none">
+              <path
+                d="M24 8 C28 8 30 10 30 14 L30 60 C30 68 24 72 18 72 C12 72 6 68 6 60 L6 18 C6 14 8 12 12 12 C16 12 18 14 18 18 L18 56 C18 60 20 62 22 62 C24 62 26 60 26 56 L26 14"
+                stroke="#b8902f"
+                stroke-width="3"
+                stroke-linecap="round"
               />
-              <div class="about__text">
-                <h3>Why I Chose Criminology</h3>
-                <p>
-                  My dream has always been to serve my community. During Senior
-                  High School, I worked as an Assistant Teacher from 2022 to
-                  2023. That experience taught me discipline, communication, and
-                  genuine care for others. It deepened my desire to contribute
-                  more broadly to society, which led me to pursue Criminology.
-                </p>
-              </div>
-            </div>
+            </svg>
           </div>
+          <div id="eduPhotoLightboxImg" class="polaroid-photo-bg edu-photo-lightbox__full-bg" style="background-image: none"></div>
+          <div id="eduPhotoLightboxCap" class="caption"></div>
         </div>
-      </section>
-
-      <section class="skills">
-        <div class="skills__inner">
-          <h2>Skills</h2>
-          <div class="section-rule" aria-hidden="true"></div>
-          <div class="skills__grid">
-            <div class="skills__column">
-              <h3>Core Skills</h3>
-              <ul class="skills__tags">
-                <li><span class="skill-tag">Excellent Communication</span></li>
-                <li><span class="skill-tag">Creative Thinking</span></li>
-                <li><span class="skill-tag">Organizational Skills</span></li>
-                <li><span class="skill-tag">Patience and Empathy</span></li>
-                <li><span class="skill-tag">Interpersonal Skills</span></li>
-                <li><span class="skill-tag">Critical Thinking</span></li>
-                <li><span class="skill-tag">Adaptability</span></li>
-                <li><span class="skill-tag">Leadership</span></li>
-              </ul>
-            </div>
-            <div class="skills__column">
-              <h3>Academic Skills</h3>
-              <ul class="skills__tags">
-                <li><span class="skill-tag">Criminal Investigation</span></li>
-                <li><span class="skill-tag">Forensic Analysis</span></li>
-                <li><span class="skill-tag">Legal Research</span></li>
-                <li><span class="skill-tag">Crime Scene Processing</span></li>
-                <li><span class="skill-tag">Report Writing</span></li>
-                <li><span class="skill-tag">Case Documentation</span></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="education">
-        <div class="education__inner">
-          <h2>Educational Information</h2>
-          <div class="section-rule" aria-hidden="true"></div>
-
-          <div class="education__card">
-            <h3>Bachelor of Science in Criminology</h3>
-            <p class="education__school">University of Batangas Lipa Campus</p>
-            <p class="education__meta">2024-present - BS Criminology Student</p>
-            <p class="education__transfer">
-              Previously: Kolehiyo ng Lungsod ng Lipa (2023-2024)
-            </p>
-          </div>
-
-          <div class="education__card">
-            <h3>Prior Schooling</h3>
-            <ul class="education__list education__list--prior">
-              <li>
-                <span class="education__bullet" aria-hidden="true">•</span>
-                Senior High School (2021-2023): Lipa City Senior High School
-              </li>
-              <li>
-                <span class="education__bullet" aria-hidden="true">•</span>
-                Junior High School (2017-2021): Lipa City National High School
-              </li>
-              <li>
-                <span class="education__bullet" aria-hidden="true">•</span>
-                Elementary (2010-2017): Tibig Elementary School
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <p>&copy; 2026 Kim Princes R. Villanueva. All rights reserved.</p>
-    </footer>
+      </div>
+    </div>
+    <p class="casefile-footer">• CASE FILE · Kim Princes R. Villanueva • Interactive dossier •</p>
+    <script src="casefile.js" defer></script>
   </body>
 </html>

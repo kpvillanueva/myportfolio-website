@@ -1,0 +1,5 @@
+# Too large for GitHub (video-2 exceeds 100 MB limit)
+imgs/*.mp4
+
+# Optional dev artifacts
+uploads/

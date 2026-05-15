@@ -4,56 +4,163 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | Kim Princes R. Villanueva</title>
-    <meta
-      name="description"
-      content="Home page of Kim Princes R. Villanueva portfolio website."
+    <meta name="description" content="Case file cover — portfolio of Kim Princes R. Villanueva." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Source+Sans+3:wght@300;400;500;600;700&family=Special+Elite&family=Caveat:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="casefile.css" />
   </head>
   <body>
-    <header>
-      <nav class="site-nav" aria-label="Primary">
-        <div class="site-nav__inner">
-          <a class="site-nav__brand" href="index.html">Kim Princes</a>
-          <ul class="site-nav__links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Achievements</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+    <script>
+      document.documentElement.classList.add("casefile-boot");
+    </script>
+    <div id="root">
+      <div class="stage entered">
+        <div class="folder-wrap">
+          <div class="folder">
+            <div class="bg-sheets" aria-hidden="true">
+              <div class="bg-sheet"></div>
+              <div class="bg-sheet"></div>
+              <div class="bg-sheet"></div>
+            </div>
+            <div class="folder-back" aria-hidden="true"></div>
 
-    <main>
-      <section class="hero">
-        <div class="hero__inner">
-          <img
-            class="hero__photo"
-            src="imgs/1.jpg"
-            alt="Portrait of Kim Princes R. Villanueva"
-            width="300"
-            height="350"
-          />
-          <div class="hero__content">
-            <h1>Welcome Message</h1>
-            <p class="hero__tagline">
-              Hello! I am Kim Princes R. Villanueva, a student from College of
-              Criminal Justice Education. Welcome to my website where you can
-              learn more about me, my skills, and my achievements.
-            </p>
-            <p class="hero__intro">
-              This website is created to showcase my personal background,
-              academic journey, and projects. Feel free to explore different
-              pages.
-            </p>
+            <nav class="tabs" aria-label="Primary">
+              <a class="tab tab-active" href="index.html">
+                <span class="tab-no">FILE 01</span>
+                <span class="tab-label">HOME</span>
+              </a>
+              <a class="tab" href="about.html">
+                <span class="tab-no">FILE 02</span>
+                <span class="tab-label">ABOUT ME</span>
+              </a>
+              <a class="tab" href="projects.html">
+                <span class="tab-no">FILE 03</span>
+                <span class="tab-label">ACHIEVEMENTS</span>
+              </a>
+              <a class="tab" href="contact.html">
+                <span class="tab-no">FILE 04</span>
+                <span class="tab-label">CONTACT</span>
+              </a>
+            </nav>
+
+            <div class="papers">
+              <div class="paper">
+                <div class="hole-punch" aria-hidden="true">
+                  <div class="hole"></div>
+                  <div class="hole"></div>
+                  <div class="hole"></div>
+                  <div class="hole"></div>
+                  <div class="hole"></div>
+                  <div class="hole"></div>
+                </div>
+                <div class="paper-content">
+                  <div class="classification">
+                    <span
+                      ><span class="dot" style="display: inline-block; margin-right: 10px; vertical-align: middle"></span
+                      >CONFIDENTIAL // INTERNAL USE ONLY</span
+                    >
+                    <span>CASE NO. KPRV-2026 · CLEARANCE: LV-5</span>
+                  </div>
+
+                  <div class="home-grid" style="margin-top: 8px">
+                    <div>
+                      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 14px">
+                        <div style="width: 5px; height: 28px; background: var(--red-stamp)"></div>
+                        <span class="label" style="font-size: 10px">CASE FILE COVER · 01 / 04</span>
+                      </div>
+                      <div class="typewriter" style="font-size: 12px; letter-spacing: 0.22em; margin-bottom: 4px; color: var(--ink-soft)">
+                        SUBJECT
+                      </div>
+                      <h1 class="h-display" style="font-size: clamp(2rem, 5vw, 52px); line-height: 0.95; margin-bottom: 12px">
+                        Kim Princes R.<br />Villanueva
+                      </h1>
+                      <div
+                        style="
+                          font-family: Caveat, cursive;
+                          font-size: clamp(1.35rem, 3.5vw, 26px);
+                          color: var(--navy-ink);
+                          transform: rotate(-1.2deg);
+                          margin-left: 2px;
+                          margin-bottom: 26px;
+                          font-weight: 600;
+                          line-height: 1.15;
+                        "
+                      >
+                        “Makabayan, Makatao, Makakalikasan, Makadiyos.”
+                      </div>
+                      <div style="display: grid; gap: 2px; max-width: 420px; margin-bottom: 22px">
+                        <div class="field">
+                          <span class="k">Programme</span>
+                          <span class="v">BS Criminology · University of Batangas Lipa Campus</span>
+                        </div>
+                        <div class="field">
+                          <span class="k">Discipline</span>
+                          <span class="v">Criminal Justice &amp; Forensics</span>
+                        </div>
+                        <div class="field">
+                          <span class="k">Filed</span>
+                          <span class="v">Lipa City, Batangas · 2026</span>
+                        </div>
+                      </div>
+                      <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px">
+                        <a class="btn" href="about.html">
+                          Open Dossier
+                          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+                            <path d="M5 12h14" />
+                            <path d="M13 6l6 6-6 6" />
+                          </svg>
+                        </a>
+                        <a class="btn btn-ghost" href="contact.html">Request Contact</a>
+                      </div>
+                    </div>
+
+                    <div style="display: flex; flex-direction: column; align-items: center; gap: 12px">
+                      <figure class="emblem-slot emblem-slot--photo" aria-label="Exhibit A · photo attachment">
+                        <img
+                          src="imgs/1.png"
+                          alt="Kim Princes R. Villanueva — portrait"
+                          width="800"
+                          height="1000"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      </figure>
+                      <span class="label" style="font-size: 9px; margin-top: 4px">EXHIBIT A · PHOTO ATTACHMENT</span>
+                      <div
+                        style="
+                          text-align: center;
+                          font-family: JetBrains Mono, monospace;
+                          font-size: 10px;
+                          letter-spacing: 0.18em;
+                          color: var(--ink-soft);
+                          line-height: 1.7;
+                        "
+                      >
+                        KOLEHIYO / UB LIPA<br />
+                        BUREAU OF ACADEMIC RECORDS<br />
+                        FILE PREPARED · 05·14·26
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="index-strip">
+                    <span>► HOME · 01</span>
+                    <span>STATUS: ACTIVE</span>
+                    <span>NEXT ▸ ABOUT ME</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="folder-front-trim" aria-hidden="true"></div>
           </div>
         </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <p>&copy; 2026 Kim Princes R. Villanueva. All rights reserved.</p>
-    </footer>
+      </div>
+    </div>
+    <p class="casefile-footer">• CASE FILE · Kim Princes R. Villanueva • Interactive dossier •</p>
+    <script src="casefile.js" defer></script>
   </body>
 </html>

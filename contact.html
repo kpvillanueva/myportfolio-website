@@ -4,56 +4,325 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact | Kim Princes R. Villanueva</title>
-    <meta
-      name="description"
-      content="Contact details and simple contact form for Kim Princes R. Villanueva."
+    <meta name="description" content="Contact — Kim Princes R. Villanueva." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Source+Sans+3:wght@300;400;500;600;700&family=Special+Elite&family=Caveat:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="casefile.css" />
   </head>
   <body>
-    <header>
-      <nav class="site-nav" aria-label="Primary">
-        <div class="site-nav__inner">
-          <a class="site-nav__brand" href="index.html">Kim Princes</a>
-          <ul class="site-nav__links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Achievements</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
+    <script>
+      document.documentElement.classList.add("casefile-boot");
+    </script>
+    <div id="root">
+      <div class="stage entered">
+        <div class="folder-wrap">
+          <div class="folder">
+            <div class="bg-sheets" aria-hidden="true">
+              <div class="bg-sheet"></div>
+              <div class="bg-sheet"></div>
+              <div class="bg-sheet"></div>
+            </div>
+            <div class="folder-back" aria-hidden="true"></div>
+
+            <nav class="tabs" aria-label="Primary">
+              <a class="tab" href="index.html"><span class="tab-no">FILE 01</span><span class="tab-label">HOME</span></a>
+              <a class="tab" href="about.html"><span class="tab-no">FILE 02</span><span class="tab-label">ABOUT ME</span></a>
+              <a class="tab" href="projects.html"><span class="tab-no">FILE 03</span><span class="tab-label">ACHIEVEMENTS</span></a>
+              <a class="tab tab-active" href="contact.html"><span class="tab-no">FILE 04</span><span class="tab-label">CONTACT</span></a>
+            </nav>
+
+            <div class="papers">
+              <div class="paper">
+                <div class="hole-punch" aria-hidden="true">
+                  <div class="hole"></div>
+                  <div class="hole"></div>
+                  <div class="hole"></div>
+                  <div class="hole"></div>
+                  <div class="hole"></div>
+                  <div class="hole"></div>
+                </div>
+                <div class="paper-content">
+                  <div class="classification">
+                    <span
+                      ><span class="dot" style="display: inline-block; margin-right: 10px; vertical-align: middle"></span
+                      >OFFICIAL INQUIRY · SECTION 04 · INTAKE FORM</span
+                    >
+                    <span>CASE NO. KPRV-2026 · CLEARANCE: LV-5</span>
+                  </div>
+
+                  <div class="intake-lede">
+                    <h2 class="h-display">Open a Line</h2>
+                    <p class="typewriter">
+                      All inquiries are read personally. Allow <strong>24–72 hours</strong> for a response. Mark the subject
+                      <strong>URGENT</strong> only for time-sensitive matters.
+                    </p>
+                  </div>
+
+                  <div class="contact-intake">
+                    <div class="contact-intake__left">
+                      <div class="channels-panel">
+                        <div class="paperclip" aria-hidden="true">
+                          <svg viewBox="0 0 36 80" fill="none">
+                            <path
+                              d="M24 8 C28 8 30 10 30 14 L30 60 C30 68 24 72 18 72 C12 72 6 68 6 60 L6 18 C6 14 8 12 12 12 C16 12 18 14 18 18 L18 56 C18 60 20 62 22 62 C24 62 26 60 26 56 L26 14"
+                              stroke="#2a5599"
+                              stroke-width="3"
+                              stroke-linecap="round"
+                            />
+                            <path
+                              d="M24 8 C28 8 30 10 30 14 L30 60 C30 68 24 72 18 72 C12 72 6 68 6 60 L6 18 C6 14 8 12 12 12 C16 12 18 14 18 18 L18 56 C18 60 20 62 22 62 C24 62 26 60 26 56 L26 14"
+                              stroke="rgba(255,255,255,.5)"
+                              stroke-width="1"
+                              stroke-linecap="round"
+                              transform="translate(-.5 -.5)"
+                            />
+                          </svg>
+                        </div>
+                        <div class="intake-status-badge" role="status">INTAKE OPEN</div>
+                        <div class="label" style="margin-bottom: 14px; letter-spacing: 0.28em">DIRECT CHANNELS</div>
+
+                        <div class="channel-row">
+                          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+                            <rect x="3" y="5" width="18" height="14" rx="2" />
+                            <path d="M3 7l9 7 9-7" />
+                          </svg>
+                          <span class="ch-key">Email</span>
+                          <div class="ch-val">
+                            <a href="mailto:2420661@ub.edu.ph">2420661@ub.edu.ph</a>
+                          </div>
+                        </div>
+                        <div class="channel-row">
+                          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+                            <path d="M5 4h3l2 5-2.5 1.5a12 12 0 0 0 6 6L15 14l5 2v3a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" />
+                          </svg>
+                          <span class="ch-key">Office</span>
+                          <div class="ch-val">0991 336 9943 / 0977 688 9893</div>
+                        </div>
+                        <div class="channel-row">
+                          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+                            <path d="M12 22s8-7 8-13a8 8 0 1 0-16 0c0 6 8 13 8 13z" />
+                            <circle cx="12" cy="10" r="3" />
+                          </svg>
+                          <span class="ch-key">Mailbox</span>
+                          <div class="ch-val">Purok 5, Brgy. Tibig, Lipa City, Batangas</div>
+                        </div>
+                        <div class="channel-row">
+                          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path
+                              d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.988h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                            />
+                          </svg>
+                          <span class="ch-key">Facebook</span>
+                          <div class="ch-val">
+                            <a href="https://www.facebook.com/kimprinces.villanueva" rel="noopener noreferrer" target="_blank"
+                              >facebook.com/kimprinces.villanueva</a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="schedule-panel">
+                        <span class="label">CLASS SCHEDULE</span>
+                        <div class="schedule-table-wrap">
+                          <table class="schedule-table">
+                            <thead>
+                              <tr>
+                                <th scope="col">Subject</th>
+                                <th scope="col">Description</th>
+                                <th scope="col">Section</th>
+                                <th scope="col">Day</th>
+                                <th scope="col">Time</th>
+                                <th scope="col">Room</th>
+                                <th scope="col">Instructor</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>CDI6</td>
+                                <td>Fire Protection and Arson Investigation</td>
+                                <td>CRIM3B</td>
+                                <td>TTH</td>
+                                <td>10:00AM–11:30AM</td>
+                                <td>A-315</td>
+                                <td>ROXAS, JENEL GUTIERREZ</td>
+                              </tr>
+                              <tr>
+                                <td>CDI8</td>
+                                <td>Technical English 2 (Legal Forms)</td>
+                                <td>CRIM3B</td>
+                                <td>W</td>
+                                <td>09:00AM–12:00PM</td>
+                                <td>CRIM LAB 1</td>
+                                <td>ROXAS, JENEL GUTIERREZ</td>
+                              </tr>
+                              <tr>
+                                <td>CLJ4</td>
+                                <td>Criminal Law (Book 2)</td>
+                                <td>CRIM3B</td>
+                                <td>F</td>
+                                <td>08:00AM–12:00PM</td>
+                                <td>A-304</td>
+                                <td>MOSTIERO, EZEKIEL TRAQUENA</td>
+                              </tr>
+                              <tr>
+                                <td>CLJ5</td>
+                                <td>Evidence</td>
+                                <td>CRIM3B</td>
+                                <td>S</td>
+                                <td>01:00PM–04:00PM</td>
+                                <td>A-304</td>
+                                <td>MOSTIERO, EZEKIEL TRAQUENA</td>
+                              </tr>
+                              <tr>
+                                <td>CRIM5</td>
+                                <td>Juvenile Delinquency and Juvenile Justice System</td>
+                                <td>CRIM3B</td>
+                                <td>S</td>
+                                <td>08:00AM–11:00AM</td>
+                                <td>A-306</td>
+                                <td>DELFIN, MARIA LEA SANCHEZ</td>
+                              </tr>
+                              <tr>
+                                <td>EPR</td>
+                                <td>English Proficiency for Empowered Professionals</td>
+                                <td>CRIM2B</td>
+                                <td>MW</td>
+                                <td>02:30PM–04:00PM</td>
+                                <td>A-221</td>
+                                <td>GOMEZ, DAN REY VILLOTA</td>
+                              </tr>
+                              <tr>
+                                <td>FRC4</td>
+                                <td>Questioned Documents Examination</td>
+                                <td>CRIM3B</td>
+                                <td>M</td>
+                                <td>
+                                  01:00PM–03:00PM<br />
+                                  03:00PM–04:00PM (LAB)
+                                </td>
+                                <td>
+                                  A-302<br />
+                                  A-302 (LAB)
+                                </td>
+                                <td>ROXAS, JENEL GUTIERREZ</td>
+                              </tr>
+                              <tr>
+                                <td>FRC5</td>
+                                <td>Lie Detection Techniques</td>
+                                <td>CRIM3B</td>
+                                <td>W</td>
+                                <td>
+                                  08:00AM–10:00AM<br />
+                                  10:00AM–11:00AM (LAB)
+                                </td>
+                                <td>
+                                  A-317<br />
+                                  A-317 (LAB)
+                                </td>
+                                <td>CASTILLO, ANGELICA ARIANNE CARE</td>
+                              </tr>
+                              <tr>
+                                <td>LEA4</td>
+                                <td>Law Enforcement Operations and Planning with Crime Mapping</td>
+                                <td>CRIM2B</td>
+                                <td>MW</td>
+                                <td>10:00AM–11:30AM</td>
+                                <td>A-304</td>
+                                <td>DELFIN, MARIA LEA SANCHEZ</td>
+                              </tr>
+                              <tr>
+                                <td>LITERA</td>
+                                <td>Living in IT Era</td>
+                                <td>CRIM3B</td>
+                                <td>F</td>
+                                <td>02:00PM–05:00PM</td>
+                                <td>B-314</td>
+                                <td>REYES, RUSSEL GARCIA</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="contact-intake__right">
+                      <div class="intake-sheet-wrap">
+                        <div class="washi-tape intake-tape" aria-hidden="true"></div>
+                        <form id="casefileContactForm" class="intake-sheet" novalidate>
+                          <div class="intake-sheet-head">
+                            <span class="h-file">FILE AN INQUIRY</span>
+                            <span class="form-rev">FORM KPRV-204 · REV 12</span>
+                          </div>
+
+                          <div class="cf-field intake-line" data-field="name">
+                            <div class="intake-label-row">
+                              <span class="num">01</span>
+                              <span class="lbl">Filed by</span>
+                            </div>
+                            <input class="input" type="text" name="name" autocomplete="name" placeholder="full name" />
+                          </div>
+                          <div class="cf-field intake-line" data-field="email">
+                            <div class="intake-label-row">
+                              <span class="num">02</span>
+                              <span class="lbl">Return address</span>
+                            </div>
+                            <input class="input" type="email" name="email" autocomplete="email" placeholder="email@domain" />
+                          </div>
+                          <div class="cf-field intake-line" data-field="subject">
+                            <div class="intake-label-row">
+                              <span class="num">03</span>
+                              <span class="lbl">Re</span>
+                            </div>
+                            <input class="input" type="text" name="subject" placeholder="subject line" />
+                          </div>
+                          <div class="cf-field intake-line" data-field="message">
+                            <div class="intake-label-row">
+                              <span class="num" style="letter-spacing: 0; color: var(--ink-soft)">—</span>
+                              <span class="lbl">Matter</span>
+                            </div>
+                            <textarea class="textarea" name="message" rows="5" placeholder="describe the matter…"></textarea>
+                          </div>
+                          <div class="cf-field intake-line cf-optional" data-field="statement">
+                            <div class="intake-label-row">
+                              <span class="num">04</span>
+                              <span class="lbl">Statement</span>
+                            </div>
+                            <input class="input" type="text" name="statement" placeholder="optional closing line" />
+      </div>
+
+                          <div class="intake-form-footer">
+                            <span class="oath">SIGNED · UNDER OATH X</span>
+                            <button type="submit" class="btn btn-submit-inquiry">Submit inquiry</button>
+              </div>
+                        </form>
         </div>
-      </nav>
-    </header>
 
-    <main>
-      <section class="contact contact--page">
-        <div class="contact__inner">
-          <h2>Contact Details</h2>
-          <div class="section-rule section-rule--on-dark" aria-hidden="true"></div>
+                      <div id="contactSuccess" class="intake-sheet contact-success" hidden style="margin-top: 18px">
+                        <h3>Received</h3>
+                        <p class="typewriter" style="font-size: 13px">
+                          Thank you, <span id="successName">friend</span>. Your inquiry is logged for review.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
 
-          <a class="contact__email" href="mailto:2420661@ub.edu.ph">
-            2420661@ub.edu.ph
-          </a>
-          <p class="contact__detail">Phone: 09913369943 / 09776889893</p>
-
-          <form class="contact-form" action="#" method="post">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required />
-
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required />
-
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-
-            <button type="submit">Send Message</button>
-          </form>
+                  <div class="index-strip">
+                    <span>◀ ACHIEVEMENTS</span>
+                    <span>SECTION 04 · CONTACT</span>
+                    <span>HOME ▸</span>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="folder-front-trim" aria-hidden="true"></div>
+          </div>
         </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <p>&copy; 2026 Kim Princes R. Villanueva. All rights reserved.</p>
-    </footer>
+      </div>
+    </div>
+    <p class="casefile-footer">• CASE FILE · Kim Princes R. Villanueva • Interactive dossier •</p>
+    <script src="casefile.js" defer></script>
   </body>
 </html>
