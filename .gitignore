@@ -3,3 +3,9 @@ imgs/*.mp4
 
 # Optional dev artifacts
 uploads/
+
+# Node / build
+node_modules/
+dist/
+.pnpm-store/
+package-lock.json

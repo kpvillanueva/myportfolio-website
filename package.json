@@ -1,0 +1,18 @@
+{
+  "name": "myportfolio-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "install:local": "pnpm install --ignore-workspace"
+  },
+  "packageManager": "pnpm@10.12.1",
+  "devDependencies": {
+    "vite": "^6.2.4"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
+  }
+}
